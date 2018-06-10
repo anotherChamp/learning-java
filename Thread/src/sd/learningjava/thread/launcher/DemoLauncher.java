@@ -1,9 +1,6 @@
 package sd.learningjava.thread.launcher;
 
-import sd.learningjava.thread.processor.AwaitSignal;
-import sd.learningjava.thread.processor.CountDownLatchProcessor;
-import sd.learningjava.thread.processor.CyclicBarrierProcessor;
-import sd.learningjava.thread.processor.WaitNotify;
+import sd.learningjava.thread.processor.*;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package com.java.threads;
+package sd.learningjava.thread.processor;
 
 import java.util.concurrent.locks.ReentrantLock;
 

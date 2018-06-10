@@ -52,7 +52,7 @@ public class ExecutorServiceAndFuture {
         for (int i = 0; i < 10; i++) {
             int finalI = i + 1;
             Future f  = service.submit(() -> work(finalI));
-            System.out.println("Is future completed? -" + f.isDone());
+            System.out.println("Is future completed? - " + f.isDone());
             try {
                 System.out.println("Value in future - " + f.get());
             } catch (InterruptedException | ExecutionException e) {

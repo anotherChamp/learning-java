@@ -15,6 +15,7 @@ public class DemoLauncher {
         System.out.println("2. AwaitSignal");
         System.out.println("3. CountDownLatch");
         System.out.println("4. CyclicBarrier");
+        System.out.println("5. ExecutorServiceAndFuture");
         System.out.println("Enter your choice: ");
         int choice = new Scanner(System.in).nextInt();
         switch(choice) {
@@ -33,6 +34,10 @@ public class DemoLauncher {
             case 4:
                 CyclicBarrierProcessor cb = new CyclicBarrierProcessor();
                 cb.demoRun();
+                break;
+            case 5:
+                ExecutorServiceAndFuture ex = new ExecutorServiceAndFuture();
+                ex.demoRun();
                 break;
         }
     }

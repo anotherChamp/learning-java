@@ -43,6 +43,7 @@ public class ConcurrentModification {
         l = new ArrayList<>(unmodifiableList);
         l.forEach(System.out::println);
         System.out.println("Same operation using Java 8+");
+        // Just a one liner
         l.removeIf(s -> !s.startsWith("S"));
         l.forEach(System.out::println);
     }
